@@ -22,12 +22,12 @@ public class CharacterProfile {
     }
 
     //Character Fields
-    private static String firstName = "Qui-Gon";
-    private static String lastName = "Jinn";
-    private static int birthYearBBY = 80;
-    private static String homeWorld = "Coruscant";
-    private static float heightInMeters = 1.93f;
-    private static int weightInKg = 85;
+    private static final String firstName = "Qui-Gon";
+    private static final String lastName = "Jinn";
+    private static final int birthYearBBY = 80;
+    private static final String homeWorld = "Coruscant";
+    private static final float heightInMeters = 1.93f;
+    private static final int weightInKg = 85;
 
     private static class Character{
         String firstName;
